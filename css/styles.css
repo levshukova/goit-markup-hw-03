@@ -114,7 +114,7 @@ body {
 }
 
 .contacts .item:not(:last-child){
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 .contacts .link{
@@ -150,7 +150,9 @@ body {
     
 }
 /* features */
-
+.features-container{
+    padding-top: 94px;
+}
 .features-list{
     display: flex;
 }
@@ -280,10 +282,11 @@ footer {
 }
 .footer-main-container{
     display: flex;
-    padding-top: 48px;
+    padding-bottom: 28px;
 }
 .footer-left-part{
-    margin-right: 195px;
+    margin-right:auto;
+    padding-top: 48px;
 }
 .socials{
     margin-right: 100px;
@@ -296,17 +299,34 @@ footer {
     font-size: 22px;
     line-height: 1.12;
 }
-.footer .address{
-
+.footer .address-container{
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
 }
+.address-container .address{
+    margin-top: 0;
+    margin-bottom: 9px;
+}
 .footer .link {
     color: var(--icon-color-footer);
 }
+.address-link{
+    display: inline-block;
+}
+.address-link:not(:last-child) {
+    margin-bottom: 9px;
+
+}
 
 /* subscription */
+.subscription-container{
+    margin-bottom: 0;
+}
+.subscription-container,
+.socials{
+    padding-top: 56px;
+}
 .socials .text,
 .subscription-container .text{
     margin-bottom: 21px;
@@ -318,7 +338,7 @@ footer {
 }
 .email-input{
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     margin-right: 12px;
     padding: 10px 58px 10px 12px;
 
@@ -336,10 +356,9 @@ footer {
 .socials-link:not(:last-child){
     margin-right: 10px;
 }
-.sub-container{
-    display: flex;
-}
 .copyright{
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 18px;
     padding-bottom: 21px;
 
@@ -347,6 +366,7 @@ footer {
     font-size: 12px;
     line-height: 2.0;
     text-align: center;
+    /* background-color: chocolate; */
 
 }
 
