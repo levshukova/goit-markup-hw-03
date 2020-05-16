@@ -42,7 +42,7 @@ body {
     padding-bottom: 94px;
     /* padding-top: 94px; */
 
-    /* background-color: burlywood; */
+  
 }
 /* Container */
 .container{
@@ -222,7 +222,7 @@ body {
 }
 .team-container{
     padding-top: 94px;
-    /* background-color: lavender; */
+  
 }
 .team-list{
     display: flex;
@@ -369,7 +369,6 @@ footer {
     /* background-color: chocolate; */
 
 }
-
 /* button */
 .button{
     display: inline-block;
@@ -438,7 +437,7 @@ button:hover, button:focus{
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    /* background-color: forestgreen; */
+
 }
 .gallery .element{
     width: 380px;
