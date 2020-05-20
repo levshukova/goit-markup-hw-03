@@ -273,17 +273,15 @@ footer {
 }
 .footer-main-container{
     display: flex;
+    align-items: baseline;
+    padding-top: 48px;
     padding-bottom: 28px;
     border-bottom:  1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-left-part{
-    /* margin-right:auto; */
-    padding-top: 48px;
     margin-right: 69px;
 }
-/* .socials{
-    margin-right: 100px;
-} */
+
 .footer .logo{
     margin-top: 0;
     margin-bottom: 10px;
@@ -321,7 +319,6 @@ footer {
     margin-bottom: 0;
 } */
 .socials{
-    padding-top: 56px;
     padding-bottom: 21px;
   
     font-weight: 700;
