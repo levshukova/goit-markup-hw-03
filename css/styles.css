@@ -223,6 +223,9 @@ body {
 }
 .team-member{
     background-color: #fff;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    border-radius: 4px;
 }
 .team-member:not(:last-child){
     margin-right: 30px;
@@ -442,13 +445,23 @@ button:hover, button:focus{
 .gallery > .element:nth-last-child(-n + 3) {
     margin-bottom: 0;
   }
+.element .image {
+    width: 370px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.element-content{
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .gallery .subtitle{
     margin-top: 0;
     margin-bottom: 4px;
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-
+  
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -460,9 +473,9 @@ button:hover, button:focus{
 .gallery .type{
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px;
     padding-left: 24px;
-    padding-right: 24px;
+    padding-right: 24px; */
 
     color: var(--primary-text-color);
     font-size: 16px;
